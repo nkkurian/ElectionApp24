@@ -65,78 +65,65 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="409dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="700dp"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+    android:id="@+id/toolbar"
+    android:layout_width="409dp"
+    android:layout_height="130dp"
+    android:layout_marginTop="680dp"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="?attr/actionBarTheme"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0"
+    tools:layout_editor_absoluteX="1dp" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="78dp"
-        android:layout_height="92dp"
-        android:layout_marginTop="700dp"
+    <ImageButton
+        android:id="@+id/PencilButtonCP"
+        android:layout_width="87dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="680dp"
         android:layout_marginEnd="300dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:backgroundTint="?attr/colorPrimary"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pencil_icon" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="77dp"
-        android:layout_height="76dp"
-        android:layout_marginTop="700dp"
-        android:layout_marginEnd="150dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageButton
+        android:id="@+id/CalendarButton"
+        android:layout_width="85dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="685dp"
+        android:layout_marginEnd="200dp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/question_mark_icon" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="68dp"
-        android:layout_height="77dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="700dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/calendar_icon" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="62dp"
-        android:layout_height="82dp"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="700dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageButton
+        android:id="@+id/GraphButtonCp"
+        android:layout_width="109dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="300dp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/toolbar"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/graph_icon" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="70dp"
-        android:layout_height="96dp"
-        android:layout_marginStart="300dp"
+    <ImageButton
+        android:id="@+id/SettingsButtonCP"
+        android:layout_width="76dp"
+        android:layout_height="65dp"
         android:layout_marginTop="700dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="?attr/colorPrimary"
+        app:layout_constraintStart_toEndOf="@+id/GraphButtonCp"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/setting_icon" />
-
+        app:srcCompat="@drawable/setting_icon"
+        android:scaleType="fitCenter"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

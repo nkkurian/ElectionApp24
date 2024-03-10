@@ -4,17 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".PollingPage">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is the home page"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Look here for polling data"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="314dp" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -76,5 +74,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/setting_icon"
         android:scaleType="fitCenter"/>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
