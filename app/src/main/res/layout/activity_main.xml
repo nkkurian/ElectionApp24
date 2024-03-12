@@ -39,7 +39,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pencil_icon" />
+        app:srcCompat="@drawable/new_calendar_logo" />
 
     <ImageButton
         android:id="@+id/CalendarButton"

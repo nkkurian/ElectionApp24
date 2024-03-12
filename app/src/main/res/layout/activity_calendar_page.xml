@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calendar Page"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="177dp" />
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="91dp" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -74,4 +74,107 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/setting_icon"
         android:scaleType="fitCenter"/>
+
+    <CalendarView
+        android:id="@+id/ElectionCalendar"
+        android:layout_width="378dp"
+        android:layout_height="472dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        android:firstDayOfWeek="1"
+        android:maxDate="12/01/2024"
+        android:minDate="01/01/2024"/>
+
+    <ImageView
+        android:id="@+id/both_parties_color23"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="80dp"
+        android:alpha="0.3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/purple" />
+
+    <ImageView
+        android:id="@+id/both_parties_color23"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="240dp"
+        android:alpha="0.3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/purple" />
+
+    <ImageView
+        android:id="@+id/both_parties_color23"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="100dp"
+        android:alpha="0.3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/purple" />
+
+    <ImageView
+        android:id="@+id/both_parties_color23"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="290dp"
+        android:alpha="0.3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/purple" />
+
+    <ImageView
+        android:id="@+id/republicanImage19"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginBottom="80dp"
+        android:alpha="0.3"
+        app:layout_constraintBottom_toBottomOf="@+id/ElectionCalendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ElectionCalendar"
+        app:srcCompat="@drawable/republican_logo" />
+
+    <ImageView
+        android:id="@+id/republicanImage20"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginBottom="80dp"
+        android:alpha="0.3"
+        app:layout_constraintBottom_toBottomOf="@+id/ElectionCalendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ElectionCalendar"
+        app:srcCompat="@drawable/republican_logo" />
+
+    <ImageView
+        android:id="@+id/democratic_color1"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="80dp"
+        android:alpha="0.3"
+        app:layout_constraintBottom_toBottomOf="@+id/ElectionCalendar"
+        app:layout_constraintEnd_toEndOf="@+id/ElectionCalendar"
+        app:layout_constraintStart_toStartOf="@+id/ElectionCalendar"
+        app:layout_constraintTop_toTopOf="@+id/ElectionCalendar"
+        app:srcCompat="@drawable/democratic_logo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
