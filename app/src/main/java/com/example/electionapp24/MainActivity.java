@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         CalendarPageimgButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentLoadCalendarPage = new Intent(MainActivity.this,CalendarPage.class);
+                Intent intentLoadCalendarPage = new Intent(MainActivity.this, Calendar_New.class);
                 startActivities(new Intent[] {intentLoadCalendarPage});
             }
         });
